@@ -1,0 +1,4 @@
+div#close- img {width: 100%;}
+div#close- {position: absolute; cursor: pointer;z-index: 99;right: 40px;width: 30px;top: 30px;background: #f4f4f4;padding: 10px;border-radius: 50%;}
+div#sales {max-width: 100%;width: 100%;position: absolute;left: 0;right: 0;top: 0px;bottom: 0px;margin: auto;z-index: 9999999;bottom: 0;}
+div#networking {max-width: 100%;width: 100%;position: absolute;left: 0;right: 0;top: 0px;bottom: 0px;margin: auto;z-index: 9999999;bottom: 0;}

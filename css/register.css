@@ -1,0 +1,282 @@
+body { margin: 0; padding: 0; font-family: 'Gotham'; }
+html, body { margin:0;padding:0 ; height: 100%; min-height: 100%; }
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {display: block;}
+ul, li { margin:0; padding:0;}
+a {font-family: 'Gotham';font-weight: normal; font-size:16px;color:#4077bb; font-weight:400;text-decoration:none;  -webkit-transition: all 0.5s ease-out;-moz-transition: all 0.5s ease-out;-ms-transition: all 0.5s ease-out;-o-transition: all 0.5s ease-out;transition: all 0.5s ease-out;}
+a:hover {text-decoration:underline;}
+a:focus { outline:none; text-decoration:none;}
+img { border:0 none; }
+p{ margin:0 0 25px 0; }
+.bg {background: #34363F;}
+.register-page {  max-width: 100%; width: 100%; min-height: 100%; height: 100%; padding-top: 60px; padding-bottom: 30px;}
+.register-page .left-register-content { color: #fff; font-weight: 300; max-width: 500px; margin: 0 auto 120px;font-size: 18px; line-height: 28px; }
+.register-page .left-register-content p { margin:0 0 30px 0; }
+.register-page .register-logo img { width: 100%; }
+.register-page .register-left{padding-top: 20px; }
+.register-page .register-logo { max-width: 500px; margin: 0 auto 130px;  }
+.register-page .regi-logo { max-width: 500px; margin: 0 auto 100px;  }
+.register-page .right-form .form { background: #f4f4f4; border: 1px solid #83858a; padding: 20px 55px 20px;max-width: 600px;margin: 0px auto; }
+.register-page .small-window .form {padding: 15px 25px 15px;}
+.register-page .form h3 { font-size: 30px; color: #99C220; font-weight: 600; margin: 0 0 0px 0; }
+.register-page .form  .alert-danger {color: #f00;background-color: transparent;border-color: transparent;font-size: 12px;padding: 0;position: absolute;}
+.register-page-popup .form h3 { font-size: 30px; color: #99C220; font-weight: 600; margin: 0 0 0px 0; }
+.register-page .form p { font-size: 14px; margin: 0 0 10px 0; }
+.register-page .form input[type="text"], .register-page .form input[type="email"], .register-page .form input[type="tel"], .register-page .form select{ border: 1px solid #e2e2e2; width: 100%; background: #f4f4f4; height: 35px; border-bottom:2px solid #a0a0a1; outline: none; padding-left: 10px;font-size: 15px; font-weight: 300; color: #454545;  }
+.register-page .form select { background:url(../images/select-arrow.png) no-repeat right; -webkit-appearance: none;}
+.register-page .form label { text-align: right; display: block; text-transform: uppercase; font-size: 15px; text-transform: uppercase; color: #5E5E5E; }
+.register-page .form ::placeholder {color: #99C220; font-size: 15px; font-weight: 300; text-align: right; }
+.register-page-popup .form select:required:invalid {color: #99C220; text-indent: 300px;}
+.register-page-popup .small-window select:required:invalid {color: #99C220; text-indent: 195px;}
+.register-page-popup .form select:required:invalid {color: #99C220;}
+.register-page-popup .form option[value=""][disabled] {display: none;}
+.register-page-popup .form option {color:#333;}
+.register-page .submit-tab { background: #99c220; margin-top: 15px;  color: #333333; text-align: center; display: block; font-size: 18px; font-weight: 600; padding: 10px 20px; border: none; width: 100%; text-decoration: none; }
+.register-page .email-field, .register-page .field { margin-bottom: 15px !important; }
+.register-page .submit-tab:focus { outline: none; }
+.register-page .bottom-text p{ text-align: right; padding-top: 10px; color: #5E5E5E; font-size: 16px; font-weight: 300; }
+.register-page .bottom-text p a{ color: #99C220; text-decoration: underline;  font-size: 15px; font-weight: 300;}
+.register-page .form { margin-bottom: 25px; }
+.register-page .form legend { margin: 0; }
+.register-page .bottom-logo { max-width: 250px; margin: 0 auto; }
+.register-page .bottom-logo img { display: block; width: 100%; } 
+.register-page .top-label { text-align: left !important; }
+.register-page .unlock-masonite-container { max-width: 400px; height: 270px;position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin:auto; }
+.register-page .unlock-masonite{ max-width:300px; width: 100%; height: 110px; position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin:auto; }
+.register-page .unlock-masonite img { width: 100%; }
+.register-page .tab-enter { max-width: 400px; width: 100%; display: block; position: absolute; bottom: 0; text-align: center; background: #98c13f; display: block; padding: 5px 0; text-decoration: none; color: #343740; text-transform: uppercase; font-weight: 800; font-size: 20px; }
+.register-page .error-message { display: none; font-size: 12px;font-weight: 300;font-family: 'Gotham Book';margin-top: -17px;color: #f00; }
+.register-page .margin-top-form { margin-top: 115px; }
+.custom-check-box-container {display: inline-flex;width: 100%;text-align: right;}
+.custom-check-box-container label { display: block; width: 50%; }
+.custom-check-box-container span { width: 25px; height: 25px; display:inline-block; }
+.custom-check-box-container span input {width:20px; height: 25px; }
+.input-box-label { font-size: 14px; color: #99C220 !important; }
+.register-page-popup { max-width: 550px; margin: 0 auto;  }
+.register-page-popup .width-adjust { max-width: 140px; }
+.register-page-popup {padding:0 !important; max-width: 100%; width: 100%;}
+.align-left-text p{ text-align: left !important; font-size:16px !important;line-height: 20px; }
+.register-page-popup .s-check-cont { padding-top: 2px; padding-bottom: 2px;   }
+.register-page-popup .form label { text-transform: none; color: #5E5E5E; }
+.register-page .form p { font-size: 16px; color: #5E5E5E;line-height: 20px;}
+.register-page-popup .form p { font-size: 14px; color: #5E5E5E;}
+.register-page-popup .input-last input { border: 1px solid #e2e2e2 !important; }
+.register-page-popup .container { max-width: 100%; width: 100%; padding: 0; }
+.input-box-label span input[type="checkbox"] {
+    -moz-appearance:none !important;
+    -webkit-appearance:none !important;
+    -o-appearance:none !important;
+    outline: none;
+    content: none; 
+     
+}
+.input-box-label span {
+   display: inline-block;
+   position: relative;
+   padding-left: 4px;
+
+}
+.input-box-label span input[type="checkbox"]:before {
+    
+    content: "";
+    font-size: 10px;
+    color: transparent !important;
+    background: #f4f4f4;
+    display: block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #dadbdc;
+    margin-right: 0px;
+    position: relative;
+    top: 2px;
+    cursor: pointer;
+
+}
+
+
+.input-box-label span input[type="checkbox"]:checked:after {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: -3px;
+    left: 6px;
+    font-size: 20px;
+    width:20px;
+    height: 20px;
+    background: url(../images/check-icon.png) no-repeat;
+    content: "";
+}
+
+
+
+input:focus::-webkit-input-placeholder {color:transparent !important;}
+input:focus::-moz-placeholder {color:transparent !important;} 
+input:focus:-moz-placeholder {color:transparent !important;}
+input:focus:-ms-input-placeholder {color:transparent !important;}
+textarea:focus::-webkit-input-placeholder {color:transparent !important;}
+textarea:focus::-moz-placeholder {color:transparent !important;}
+textarea:focus:-moz-placeholder {color:transparent !important;}
+textarea:focus:-ms-input-placeholder {color:transparent !important;}
+
+
+
+
+
+
+@media (min-width:1920px)  {
+.register-page {  
+    max-width: 100%; 
+    width: 100%;  
+    padding-top: 100px; 
+    height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-content: center; 
+  }
+}
+
+@media (max-width:1400px) and (min-width:1201px)  {
+.register-page .bottom-text p {
+    font-size: 14px;
+   }
+   .register-page .form p {
+    font-size: 14px;
+  }
+}
+@media (max-width:1200px) and (min-width:992px)  {
+.register-page .bottom-text p {
+    font-size: 13px;
+   }
+   .register-page .bottom-text p a {
+    font-size: 13px;
+   }
+   .register-page .bottom-text br {
+    display: none;
+   }
+   .register-page .form h3 {
+    font-size: 24px;
+   }
+   .register-page .right-form .form {
+    padding: 15px 30px 10px;
+   }
+   .register-page .submit-tab {
+    font-size: 15px;
+   }
+   .register-page .form p {
+    font-size: 13px;
+   }
+   .register-page .form label {
+    font-size: 13px;
+   }
+   .register-page .left-register-content {
+    font-size: 15px;
+   }
+   
+}
+@media (max-width:991px) and (min-width:768px)  {
+  .register-page .register-logo {
+    max-width: 400px;
+    margin: 0 auto 80px;
+  }
+  .register-page .left-register-content {
+    color: #fff;
+    font-weight: 300;
+    max-width: 500px;
+    margin: 0 auto 50px;
+  }
+  .register-page .register-logo {
+    max-width: 400px;
+    margin: 0 auto 40px;
+  }
+  .register-page .bottom-logo {
+    max-width: 250px;
+    margin: 0 auto 44px;
+   }
+   .right-form {
+    max-width: 500px; 
+    margin: 0 auto;
+   }
+   .register-page {
+    padding-top: 50px;
+   }
+   .register-page .margin-top-form {
+    margin-top: 0px;
+   }
+   .register-page .row {
+    display: flex;
+    flex-direction: column-reverse;
+    }
+}
+
+
+@media (max-width:767px)  {
+ .register-page .register-logo {
+    max-width: 400px;
+    margin: 0 auto 80px;
+  }
+  .register-page .left-register-content {
+    color: #fff;
+    font-weight: 300;
+    max-width: 400px;
+    margin: 0 auto 50px;
+  }
+  .register-page .register-logo {
+    max-width: 330px;
+    margin: 0 auto 40px;
+  }
+  .register-page .bottom-logo {
+    max-width: 250px;
+    margin: 0 auto 44px;
+   }
+   .right-form {
+    max-width: 400px; 
+    margin: 0 auto;
+   }
+   .register-page {
+    padding-top: 50px;
+   }
+   .register-page .left-register-content {
+    font-size: 14px;
+   }
+   .register-page .form h3 {
+    font-size: 24px;
+   }
+   .register-page .form h3 {
+    font-size: 23px;
+   }
+   .register-page .right-form .form {
+    padding: 15px 25px 10px;
+   }
+   .register-page .left-register-content br {
+       display: none;
+   }
+   .register-page .bottom-text br {
+    display: none;
+   }
+   .register-page .bottom-text p  {
+    font-size: 12px;
+   }
+   .register-page .bottom-text p a {
+    font-size: 12px;
+   }
+   .register-page .form p {
+    font-size: 12px;
+   }
+   .register-page .form label {
+    font-size: 13px;
+   }
+   .register-page .submit-tab {
+    font-size: 15px;
+   }
+   .register-page .unlock-masonite-container {
+    max-width: 320px;
+   }
+   .register-page .margin-top-form {
+    margin-top: 0px;
+    }
+    .register-page .row {
+    display: flex;
+    flex-direction: column-reverse;
+    }
+}
+
+
